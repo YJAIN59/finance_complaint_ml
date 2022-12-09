@@ -4,7 +4,7 @@ import os
 import pandas as pd
 from constant import TIMESTAMP
 import shutil
-LOG_DIR = "logs"
+LOG_DIR = "logs_files"
 
 
 def get_log_file_name():
