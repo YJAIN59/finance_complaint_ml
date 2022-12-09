@@ -36,6 +36,7 @@ class DataTransformation:
         train_dataframe, test_dataframe = dataframe.randomSplit([1 - test_size, test_size])
 
         logger.info(f"Training Dataset = {train_dataframe.head()}")
+        print("Test ")
         logger.info(f"Testing Dataset = {test_dataframe.head()}")
 
 
